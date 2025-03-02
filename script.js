@@ -1,11 +1,11 @@
 const rockBtn = document.querySelector("#rock");
 const paperBtn = document.querySelector("#paper");
 const scissorsBtn = document.querySelector("#scissors");
-const showWinner = document.querySelector("#showWinner"); // Make sure this exists in HTML
+const showWinner = document.querySelector("#showWinner"); 
 
 rockBtn.addEventListener("click", () => {
-  let computerChoice = randomChoice(); // Get random computer choice
-  determineWinner("rock", computerChoice); // Pass both choices to determineWinner
+  let computerChoice = randomChoice()
+  determineWinner("rock", computerChoice);  
 });
 
 paperBtn.addEventListener("click", () => {
